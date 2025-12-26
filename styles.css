@@ -2,7 +2,7 @@ body{
     margin: 0;
     font-family: Arial, sans-serif;
     font-size: 14px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(243, 243, 243);
     scroll-behavior: none;
 }
 
@@ -44,7 +44,7 @@ body{
   display: flex;
   justify-content: center;
   margin-right: 10px;
-  width: 28px;
+  width: 32px;
   height: 28px;
   align-items: center;
 }
@@ -79,16 +79,33 @@ body{
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  gap: 10px;
+  gap: 4px;
 }
 
 .navlink{
+  display: flex;
+  justify-content: left;
+  align-items: center;
   text-decoration: none;
   color: rgb(21, 21, 21);
   padding: 8px;
   border-radius: 10px;
+  font-size: 14px;
+  border: none;
+      background-color: rgb(243, 243, 243);
+  cursor: pointer;
+}
+
+.active{
+  background-color: rgb(216, 216, 216);
 }
 
 .navlink:hover{
   background-color: rgb(216, 216, 216);
+}
+
+.nav-icon{
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
 }
