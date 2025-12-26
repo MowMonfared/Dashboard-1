@@ -4,8 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>This is going to be the dashboard</h1>
+    <div class="page">
+      <div class="sidenav">
+        <div><img src="images/Company logo.png" class="logo" /></div>
+        <div class="navlinks">
+          <a href="#" class="navlink active">Dashboard</a>
+          <a href="#" class="navlink">Profile</a>
+          <a href="#" class="navlink">Settings</a>
+          <a href="#" class="navlink">Logout</a>
+        </div>
+      </div>
+      <div class="content">
+        <div class="header">
+          <button class="collapsebtn">
+            <img src="images/panel-right-open.svg" class="collapseicon" />
+          </button>
+          <p class="headertext">Dashboard</p>
+        </div>
+        <div class="main">Main Content</div>
+      </div>
+    </div>
   </body>
 </html>
