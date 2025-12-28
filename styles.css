@@ -30,7 +30,7 @@ p{
     justify-content: flex-start;
     background-color: #ffffff;
     border-radius: 10px;
-    border: 1px solid rgb(204, 204, 204);
+    border: 1px solid rgb(223, 223, 223);
     height: 100vh;
 }
 
@@ -38,7 +38,7 @@ p{
   display: flex;
   align-items: center;
   padding: 16px;
-  border-bottom: 1px solid rgb(204, 204, 204);
+  border-bottom: 1px solid rgb(223, 223, 223);
 }
 
 .collapsebtn {
@@ -110,7 +110,7 @@ p{
   background-color: rgb(227, 227, 227);
 }
 
-.nav-icon{
+.nav-icon {
   width: 16px;
   margin-right: 10px;
 }
@@ -248,4 +248,99 @@ tr:hover{
 .progress{
   height: 100%;
   background-color: rgb(100, 178, 246);
+}
+
+.tab-group{
+  display: flex;
+  align-self: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(243, 243, 243);
+  padding: 8px;
+  border-radius: 14px;
+  font-size: 12px;
+}
+
+.tab-selected{
+  padding: 10px 16px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tab{
+  padding: 10px 16px;
+  background-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.tab:hover{
+  background-color: rgb(227, 227, 227);
+}
+
+.action-buttons{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.secondary-btn{
+  padding: 0 16px;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border: solid 1px rgb(200, 200, 200)  ;
+  display: flex;
+  height: 42px;
+  align-items: center;
+}
+
+.secondary-btn:hover{
+  background-color: rgb(227, 227, 227);}
+
+.primary-btn{
+  padding: 0 16px;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  height: 42px;
+  align-items: center;
+}
+
+.primary-btn:hover{
+  opacity: .7;
+}
+
+
+.add-icon{
+  width: 18px;
+  margin-right: 10px;
+}
+.icon-left {
+  width: 18px;
+  margin-left: 12px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar {
+  padding: 0px 12px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 10px;
+  font-size: 14px;
+  width: 200px;
+  height: 42px;
 }
