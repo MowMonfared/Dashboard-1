@@ -193,11 +193,11 @@ table{
   }
 
 thead {
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(249, 249, 249);
   }
 
   th{
-    font-size: 14px;
+    font-size: 12px;
   }
 
 th, td{
@@ -258,7 +258,7 @@ tr:hover{
   background-color: rgb(243, 243, 243);
   padding: 8px;
   border-radius: 14px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .tab-selected{
